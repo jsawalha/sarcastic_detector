@@ -1,0 +1,9 @@
+tf_idf_vectorizer.pkl filter=lfs diff=lfs merge=lfs -text
+trained_model.pkl filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.picklegit filter=lfs diff=lfs merge=lfs -text
+add filter=lfs diff=lfs merge=lfs -text
+. filter=lfs diff=lfs merge=lfs -text
+*.pkl,[[:space:]]*.csv filter=lfs diff=lfs merge=lfs -text
+[[:space:]]*.csv filter=lfs diff=lfs merge=lfs -text
+.pickle filter=lfs diff=lfs merge=lfs -text
