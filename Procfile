@@ -1,1 +1,1 @@
-web: gunicorn app:app --preload -b 0.0.0.0:5000
+web: gunicorn app:app --preload --timeout 10 --max-requests 1200
